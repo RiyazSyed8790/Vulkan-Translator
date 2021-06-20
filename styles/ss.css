@@ -7,7 +7,7 @@
 }
 body{
     font-family: 'Staatliches', cursive;
-    background-color: blue;
+    background-color: #3b3f7c;
     background-image: url('https://cdnb.artstation.com/p/assets/images/images/001/969/229/large/greg-huber-startrek-rsg-icon-10.jpg?1455320939');
     background-size: 50rem;
     background-position-x: center;
@@ -67,7 +67,7 @@ main{
 footer{
     margin-top: 2rem;
     text-align: center;
-    background-color: blue;
+    background-color: #3b3f7c;
     color: blanchedalmond;
     height: 2rem;
 }
