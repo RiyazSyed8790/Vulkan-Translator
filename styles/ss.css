@@ -1,4 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+*,*::after,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
 body{
     font-family: 'Staatliches', cursive;
+    
 }
+main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    text-align: center;
+    border: red 2px solid;
+    width: 25rem;
+    height: 20rem;
+    margin-top: 4rem;
+}
+.container header{
+    margin: 1rem 0;
+    font-size: 2rem;
+}
+.container textarea{
+    resize: none;
+    width: 20rem;
+    height: 10rem;
+    font-family: 'Staatliches', cursive;
+    
+}
+.container button{
+    margin: 0.5rem 0;
+    width:20rem;
+    font-family: 'Staatliches', cursive;
+    font-size: 1.5rem;
+    height: 2.5rem;
+}
+.container button:hover{
+    transform: translateY(5px);
+    transform: scale(1.1);
+}
+.output{
+    border: 2px solid black ;
+    width: 20rem;
+    height: 10rem;
+    font-family: 'Staatliches', cursive;
+    margin: 0 auto;
+}
+footer{
+    margin-top: 2rem;
+    text-align: center;
+    background-color: blue;
+    color: blanchedalmond;
+    height: 2rem;
+}
+
+ 
+    
