@@ -1,7 +1,7 @@
 'use strict';
-const url='https://api.funtranslations.com/translate/emoji.json';
-var answer= document.getElementById("output");
-var userText = document.getElementById("inputarea").value ;
+const url='https://api.funtranslations.com/translate/vulcan.json';
+
+
 
 /*
 let translate = async function(text){
@@ -15,12 +15,15 @@ let translate = async function(text){
 
 async function translate(text) {
     const data = await fetch(`${url}?text=${text}`);
+    
     const result = await data.json();
+    console.log(result);
+    var answer= document.getElementById("output");
     answer.innerHTML = result.contents.translated;
   }
   
 
 function display(){   
-
+    var userText = document.getElementById("inputarea").value ;
       translate(userText);
 }

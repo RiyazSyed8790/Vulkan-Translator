@@ -72,5 +72,40 @@ footer{
     height: 2rem;
 }
 
+@media(max-width:650px){
+    .container header{
+        background-color: gold;
+        color: seashell;
+        width: 20rem; 
+        margin: 1rem 10rem;
+        font-size: 2rem;
+    }
+    .container{
+        text-align: center;
+       
+        
+    }    
+}
+@media(max-width:570px){
+    section{
+       margin-left: 5rem; 
+    }
+    body{
+        background-position-x: 40% ;
+    }
+}
+
+@media(max-width:450px){
+    .container{
+       margin-left: 5rem; 
+        
+    }
+    body{
+        background-position-x: 29.5%;
+    }
+    section{
+        text-align: center;
+    }
+}
  
     
